@@ -5,6 +5,7 @@ import WhatYouCanDo2 from "./components/whatYouCanDo2";
 import WhatYouCanDo3 from "./components/whatYouCanDo3";
 import WhatYouCanDo4 from "./components/whatYouCanDo4";
 import Faq from "./components/faq";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhatYouCanDo3 />
       <WhatYouCanDo4 />
       <Faq />
+      <Footer />
     </div>
   );
 }

@@ -4,8 +4,8 @@ import ChevronRight from "/public/bx-chevron-right.svg";
 
 const Highlight = () => {
   return (
-    <div className="h-[620px]">
-      <div className="absolute h-[620px]">
+    <div className="h-[700px]">
+      <div className="absolute h-[700px]">
         <Image
           src={HeroImage}
           alt="Hero Image"
@@ -14,7 +14,7 @@ const Highlight = () => {
           className="h-full"
         />
       </div>
-      <div className="bg-gradient-to-b from-black/75 from-20% via-transparent/50 to-black/75 to-80% absolute w-full h-[620px]">
+      <div className="bg-gradient-to-b from-black/75 from-20% via-transparent/50 to-black/75 to-80% absolute w-full h-[700px]">
         <div className="pb-16 pt-28 my-32 text-center">
           <h1 className="font-black text-5xl text-white  ">
             Film, acara TV tak terbatas, dan banyak lagi

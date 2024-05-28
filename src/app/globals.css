@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  background: #181818;
+  background: #262626;
+}
+
+* {
+  scroll-behavior: smooth;
 }
