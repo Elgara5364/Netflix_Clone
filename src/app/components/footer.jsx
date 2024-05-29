@@ -5,13 +5,13 @@ import { footerList } from "../lib/footerList";
 
 const Footer = () => {
   return (
-    <footer className="bg-black mt-2 py-[72px] px-12">
-      <div className="container max-w-[1260px] flex flex-col  mx-[135px]">
+    <footer className="bg-black mt-2 py-[72px] ">
+      <div className="container flex flex-col mx-auto lg:mx-auto">
         <h6 className="text-[14px] text-[#b6b6b6]">
           Ada pertanyaan? Hubungi{" "}
           <span className="underline">007-803-321-2148</span>
         </h6>
-        <div className="grid grid-cols-4 my-3">
+        <div className="grid grid-cols-2 lg:grid-cols-4 my-3">
           {footerList.map((item, index) => (
             <Link
               key={index}
@@ -21,7 +21,7 @@ const Footer = () => {
             </Link>
           ))}
         </div>
-        <div className=" w-1/6 mt-4 flex gap-1 border-[1px] px-3 py-1 border-white rounded-md focus-visible:outline-1 focus-visible:border-white  ">
+        <div className=" w-[200px] mt-4 flex gap-1 border-[1px] px-3 py-1 border-white rounded-md focus-visible:outline-1 focus-visible:border-white  ">
           <Image
             src={Language_Icon}
             alt="language icon"
