@@ -21,7 +21,7 @@ const Faq = () => {
 
   return (
     <section className="h-full py-[72px]  bg-black mt-2 ">
-      <div className="max-w-[1260px] mx-6">
+      <div className="max-w-xl mx-auto mx-6">
         <h2 className="text-white text-3xl font-black text-center">
           Tanya Jawab Umum
         </h2>
@@ -31,13 +31,13 @@ const Faq = () => {
               <div
                 className=" max-w-[1260px] bg-[#2d2d2d] p-6 flex justify-between  cursor-pointer hover:bg-[#444444] duration-200"
                 onClick={() => HandleOpen(index)}>
-                <button className="text-lg font-normal text-white text-start pe-4">
+                <button className="text-md font-normal text-white text-start ">
                   {item.title}
                 </button>
                 <Image src={Plus} alt="Read More" width={25} height={25} />
               </div>
               {indexFaq === index && isOpen && (
-                <p className="mt-1 text-white text-lg font-normal max-w-[1260px] bg-[#2d2d2d] p-6 ">
+                <p className="mt-1 text-white text-md font-normal max-w-[1260px] bg-[#2d2d2d] p-6 ">
                   {item.desc}
                 </p>
               )}

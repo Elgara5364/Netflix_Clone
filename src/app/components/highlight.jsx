@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Highlight = () => {
   return (
-    <section className="relative h-[560px] overflow-hidden">
-      <div className="absolute h-[150%]">
+    <section className="relative h-auto  overflow-hidden">
+      <div className="absolute h-[100%]">
         <Image
           src={HeroImage}
           alt="Hero Image"
@@ -15,15 +15,14 @@ const Highlight = () => {
           className="h-full"
         />
       </div>
-      <div className="px-6 bg-gradient-to-b from-black/75 from-20% via-transparent/50 to-black/75 to-80% absolute w-full h-[700px]">
-        <div className="pb-12 pt-32 my-10 lg:my-32 text-center">
+      <div className="px-6 py-6 bg-gradient-to-b from-black/75 from-20% via-transparent/50 to-black/75 to-80% relative w-full h-full ">
+        <div className="h-full pb-8 pt-[120px] text-center">
           <h1 className="font-black text-3xl lg:text-5xl text-white  ">
             Film, acara TV tak terbatas, dan banyak lagi
           </h1>
           <p className="text-white font-normal lg:text-2xl mt-4">
             Tonton di mana pun. Batalkan kapanpun.
           </p>
-
           <div className="mt-6">
             <h3 className="lg:text-lg text-white">
               Siap menonton? Masukkan email untuk membuat atau memulai lagi

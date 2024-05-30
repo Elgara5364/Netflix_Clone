@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="absolute z-20 w-full py-6 px-3">
+    <nav className="absolute z-20 w-full py-6 px-6">
       <div className="container flex justify-between max-w-[1180px] mx-auto">
         <h1 className="font-black text-red-600 text-3xl lg:text-5xl cursor-default">
           Netflix
         </h1>
-        <div className="flex self-center gap-5 h-8">
+        <div className="flex self-center gap-2 h-8">
           <div className="min-[600px]:w-[200px] h-full relative flex gap-1 self-center border-[1px] px-3 py-2 border-white rounded-md focus-visible:outline-1 focus-visible:border-white ">
             <Image
               src={Language_Icon}

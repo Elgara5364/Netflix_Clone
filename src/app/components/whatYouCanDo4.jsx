@@ -3,9 +3,9 @@ import Anak from "/public/AAAABf4UTxdT7-yQGKCx5ZsSb1gyb53QvZBw0LX4fbqqRjQwgx2KQ8
 
 const WhatYouCanDo4 = () => {
   return (
-    <section className="h-[570px] py-[72px] bg-black mt-2">
-      <div className="flex flex-col justify-center mx-6 max-w-[1180px] h-full">
-        <div className="w-full h-3/4 flex flex-col justify-center text-center">
+    <section className=" h-auto py-[72px] bg-black mt-2">
+      <div className="max-w-xl flex flex-col lg:flex-row-reverse justify-center mx-6 md:mx-8 xl:mx-auto h-full">
+        <div className="w-full h-1/2 flex flex-col justify-center  lg:self-center text-center lg:text-start">
           <h2 className="text-white text-3xl font-black">
             Buat profil untuk anak
           </h2>
@@ -14,8 +14,8 @@ const WhatYouCanDo4 = () => {
             dunia yang dibuat khusus untuk mereka - gratis dengan keanggotaanmu.
           </p>
         </div>
-        <div className="relative w-full h-1/2 ">
-          <Image src={Anak} alt="TV" />
+        <div className=" w-full h-1/2 ">
+          <Image src={Anak} alt="TV" className="mx-auto" />
         </div>
       </div>
     </section>

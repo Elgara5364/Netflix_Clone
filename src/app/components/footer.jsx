@@ -6,12 +6,12 @@ import { footerList } from "../lib/footerList";
 const Footer = () => {
   return (
     <footer className="bg-black mt-2 py-[72px] ">
-      <div className="container flex flex-col mx-auto lg:mx-auto">
+      <div className="max-w-xl xl:mx-auto container flex flex-col mx-auto lg:mx-10">
         <h6 className="text-[14px] text-[#b6b6b6]">
           Ada pertanyaan? Hubungi{" "}
           <span className="underline">007-803-321-2148</span>
         </h6>
-        <div className="grid grid-cols-2 lg:grid-cols-4 my-3">
+        <div className="grid grid-cols-2 gap-x-10 lg:grid-cols-4 my-3">
           {footerList.map((item, index) => (
             <Link
               key={index}
