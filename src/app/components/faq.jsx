@@ -21,7 +21,7 @@ const Faq = () => {
 
   return (
     <section className="h-full py-[72px]  bg-black mt-2 ">
-      <div className="max-w-xl mx-auto mx-6">
+      <div className="max-w-xl mx-6 xl:mx-auto">
         <h2 className="text-white text-3xl font-black text-center">
           Tanya Jawab Umum
         </h2>
