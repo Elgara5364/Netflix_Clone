@@ -7,43 +7,30 @@ import Plus from "/public/plus-solid.svg";
 import { faqList } from "../lib/faqList";
 import { useState } from "react";
 import ChevronRight from "/public/bx-chevron-right.svg";
+import clsx from "clsx";
+import Accordion, { AccordionItem } from "./Accordion";
 
 const Faq = () => {
   // console.log(faqList);
-  const [isOpen, setIsOpen] = useState(false);
-  const [indexFaq, setIndexFaq] = useState(0);
-
-  const HandleOpen = (index) => {
-    setIndexFaq(index);
-    // console.log(item);
-    setIsOpen(!isOpen);
-  };
 
   return (
     <section className="h-full py-[72px]  bg-black mt-2 ">
       <div className="max-w-xl mx-6 xl:mx-auto">
-        <h2 className="text-white text-3xl font-black text-center">
+        <h2 className="text-white text-3xl font-black text-center mb-8">
           Tanya Jawab Umum
         </h2>
-        <ul className="mt-8  ">
+        <div>
           {faqList.map((item, index) => (
-            <li key={index} className="mb-2">
-              <div
-                className=" max-w-[1260px] bg-[#2d2d2d] p-6 flex justify-between  cursor-pointer hover:bg-[#444444] duration-200"
-                onClick={() => HandleOpen(index)}>
-                <button className="text-md font-normal text-white text-start ">
-                  {item.title}
-                </button>
-                <Image src={Plus} alt="Read More" width={25} height={25} />
-              </div>
-              {indexFaq === index && isOpen && (
-                <p className="mt-1 text-white text-md font-normal max-w-[1260px] bg-[#2d2d2d] p-6 ">
-                  {item.desc}
-                </p>
-              )}
-            </li>
+            <Accordion key={index}>
+              <AccordionItem
+                className="h-full"
+                value={index}
+                trigger={item.title}>
+                {item.desc}
+              </AccordionItem>
+            </Accordion>
           ))}
-        </ul>
+        </div>
         <div className="mt-11 text-center">
           <h3 className="text-lg px-5 text-white">
             Siap menonton? Masukkan email untuk membuat atau memulai lagi
@@ -53,7 +40,6 @@ const Faq = () => {
             <input
               className="pt-2 pb-2 px-4 bg-transparent w-3/4 lg:w-[405px] border-[1px] border-#ffffff9a rounded-md text-white mx-auto lg:mx-0 "
               placeholder="Alamat Email"></input>
-
             <Link
               href={"/#"}
               className="mx-auto lg:mx-0 flex px-4 py-2 bg-red-600 hover:bg-red-800 transition duration-300 ease-out rounded-md ">

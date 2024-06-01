@@ -5,8 +5,8 @@ const WhatYouCanDo4 = () => {
   return (
     <section className=" h-auto py-[72px] bg-black mt-2">
       <div className="max-w-xl flex flex-col lg:flex-row-reverse justify-center mx-6 md:mx-8 xl:mx-auto h-full">
-        <div className="w-full h-1/2 flex flex-col justify-center  lg:self-center text-center lg:text-start">
-          <h2 className="text-white text-3xl font-black">
+        <div className=" lg:mx-8  h-1/2 flex flex-col justify-center  lg:self-center text-center lg:text-start">
+          <h2 className="text-white text-3xl lg:text-5xl font-black">
             Buat profil untuk anak
           </h2>
           <p className="text-white mt-4 text-lg font-normal">
