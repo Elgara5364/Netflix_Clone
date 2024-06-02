@@ -1,13 +1,8 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
-import Close from "/public/xmark-solid.svg";
-import Plus from "/public/plus-solid.svg";
 import { faqList } from "../lib/faqList";
-import { useState } from "react";
 import ChevronRight from "/public/bx-chevron-right.svg";
-import clsx from "clsx";
+
 import Accordion, { AccordionItem } from "./Accordion";
 
 const Faq = () => {

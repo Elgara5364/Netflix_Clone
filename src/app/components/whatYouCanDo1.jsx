@@ -1,7 +1,7 @@
 import Image from "next/image";
 import tvImage from "/public/tv.png";
 // import tvImageMask from "/public/tv-mask.png";
-import videoTv from "/public/video-tv-0819.mp4";
+// import videoTv from "/public/video-tv-0819.mp4";
 
 const WhatYouCanDo1 = () => {
   return (
@@ -19,7 +19,7 @@ const WhatYouCanDo1 = () => {
         <div className="relative h-1/2 overflow-hidden mx-auto lg:mx-6">
           <Image src={tvImage} alt="TV" width={640} className="relative z-10" />
           <div className="absolute max-w-[73%] top-[20%] left-[13%]">
-            <video src={videoTv} autoPlay muted loop width={640} />
+            {/* <video src={videoTv} autoPlay muted loop width={640} /> */}
           </div>
         </div>
       </div>

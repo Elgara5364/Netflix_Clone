@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import Plus from "/public/plus-solid.svg";

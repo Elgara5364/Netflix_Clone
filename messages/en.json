@@ -1,0 +1,14 @@
+{
+  "Index": {
+    "Navbar": {
+      "button": "Sign In"
+    },
+    "Highlight": {
+      "heading": "Unlimited movies, TV shows, and more",
+      "subheading": "Ready to watch? Enter your email to create or restart your membership.",
+      "par": "Watch anywhere. Cancel anytime.",
+      "button": "Get Started",
+      "placeholder": "Email address"
+    }
+  }
+}

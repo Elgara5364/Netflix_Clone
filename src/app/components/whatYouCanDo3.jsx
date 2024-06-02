@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Device from "/public/device-pile-id.png";
-import tvApple from "/public/video-devices-id.mp4";
+// import tvApple from "/public//video-tv-0819.mp4";
 
 const WhatYouCanDo3 = () => {
   return (
@@ -18,7 +18,7 @@ const WhatYouCanDo3 = () => {
         <div className="relative overflow-hidden h-1/2 mx-auto">
           <Image src={Device} alt="TV" width={640} className="relative z-10" />
           <div className=" max-w-[61%] absolute top-[10%] left-[19%] ">
-            <video src={tvApple} autoPlay muted loop width={640} />
+            {/* <video src={tvApple} autoPlay muted loop width={640} /> */}
           </div>
         </div>
       </div>
