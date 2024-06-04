@@ -1,0 +1,33 @@
+{
+  "Index": {
+    "Navbar": {
+      "button": "Masuk"
+    },
+    "Highlight": {
+      "heading": "Film, acara TV tak terbatas, dan banyak lagi",
+      "subheading": "Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.",
+      "par": "Tonton di mana pun. Batalkan kapanpun.",
+      "button": "Mulai",
+      "placeholder": "Alamat email"
+    },
+    "WhatYCD1": {
+      "heading": "Nikmati di TV-mu",
+      "desc": "Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple TV, pemutar Blu-ray, dan banyak lagi."
+    },
+    "WhatYCD2": {
+      "heading": "Download acara TV untuk menontonnya secara offline",
+      "desc": "Simpan favoritmu dengan mudah agar selalu ada acara TV dan film yang bisa ditonton."
+    },
+    "WhatYCD3": {
+      "heading": "Tonton di mana punu",
+      "desc": "Streaming film dan acara TV tak terbatas di ponsel, tablet, laptop, dan TV-mu."
+    },
+    "WhatYCD4": {
+      "heading": "Buat profil untuk anak",
+      "desc": "Kirim anak-anak untuk bertualang bersama karakter favorit mereka di dunia yang dibuat khusus untuk mereka—gratis dengan keanggotaanmu."
+    },
+    "Faq": {
+      "heading": "Tanya Jawab Umum"
+    }
+  }
+}

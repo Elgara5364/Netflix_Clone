@@ -1,4 +1,4 @@
-export const footerList = [
+export const footerListId = [
   "Tanya Jawab",
   "Pusat Bantuan",
   "Akun",
@@ -16,4 +16,23 @@ export const footerList = [
   "Uji Kecepatan",
   "Informasi Legal",
   "Hanya di Netflix",
+];
+export const footerListEn = [
+  "FAQ",
+  "Help Center",
+  "Account",
+  "Media Center",
+  "Investor Relations",
+  "Jobs",
+  "Redeem Gift Cards",
+  "Buy GIft Cardss",
+  "Ways to Watch",
+  "Terms o Use",
+  "Privacy",
+  "Cookie Preferences",
+  "Corporate Information",
+  "Contact Us",
+  "Speed Test",
+  "Legal Notices",
+  "Only on Netflix",
 ];
