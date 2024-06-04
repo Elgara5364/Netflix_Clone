@@ -20,7 +20,7 @@ const LanguageSwitcher = () => {
 
   return (
     <>
-      <div className="min-[600px]:w-[200px] h-full relative flex gap-1 self-center border-[1px] px-3 py-2 border-white rounded-md focus-visible:outline-1 focus-visible:border-white ">
+      <div className="min-[600px]:w-[200px] h-full relative flex gap-1 border-[1px] px-3 py-2 border-white rounded-md focus-visible:outline-1 focus-visible:border-white ">
         <Image
           src={Language_Icon}
           alt="language icon"

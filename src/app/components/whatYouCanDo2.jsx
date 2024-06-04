@@ -3,17 +3,16 @@ import Mobile from "/public/mobile-0819.jpg";
 import BoxShot from "/public/boxshot.png";
 import completed from "/public/download-icon.gif";
 
-const WhatYouCanDo2 = () => {
+const WhatYouCanDo2 = ({ t }) => {
   return (
     <section className=" h-auto py-14 bg-black mt-2">
       <div className="max-w-xl flex flex-col lg:flex-row-reverse justify-center h-auto mx-6 md:mx-8 lg:mx-8 xl:mx-auto">
         <div className="max-w-xl  lg:mx-8  lg:w-1/2 h-1/2 flex flex-col justify-center lg:self-center text-center lg:text-start">
           <h2 className="text-white text-3xl lg:text-[44px] font-black">
-            Download acara TV untuk menontonnya secara online
+            {t("WhatYCD2.heading")}
           </h2>
           <p className="text-white mt-4 text-lg font-normal">
-            Simpan Favoritmu dengan mudah agar selalu ada acara TV dan film yang
-            bisa ditonton.
+            {t("WhatYCD2.desc")}
           </p>
         </div>
         <div className="relative h-1/2 lg:w-1/2  ">
