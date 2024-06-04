@@ -6,6 +6,7 @@ export default createMiddleware({
 
   // Used when no locale matches
   defaultLocale: "id",
+  localePath: path.resolve("./public/locales"),
 });
 
 export const config = {
