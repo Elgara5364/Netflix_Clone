@@ -3,7 +3,6 @@
 import Image from "next/image";
 import tvImage from "/public/tv.png";
 import Device from "/public/device-pile-id.png";
-import tvApple from "/public//video-tv-0819.mp4";
 import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
 
