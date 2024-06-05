@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Device from "/public/device-pile-id.png";
-// import tvApple from "/public//video-tv-0819.mp4";
+import { useTranslation } from "../i18n";
+import { Button2 } from "./button";
 
-const WhatYouCanDo3 = ({ t }) => {
+const WhatYouCanDo3 = async ({ lng }) => {
+  const { t } = await useTranslation(lng, "landing-page");
   return (
     <section className="h-auto py-[72px] bg-black mt-2">
       <div className="max-w-xl  flex flex-col lg:flex-row justify-center mx-6 md:mx-8 lg:mx-8 xl:mx-auto h-full">
@@ -14,12 +14,7 @@ const WhatYouCanDo3 = ({ t }) => {
             {t("WhatYCD3.desc")}
           </p>
         </div>
-        <div className="relative overflow-hidden h-1/2 mx-auto">
-          <Image src={Device} alt="TV" width={640} className="relative z-10" />
-          <div className=" max-w-[61%] absolute top-[10%] left-[19%] ">
-            {/* <video src={tvApple} autoPlay muted loop width={640} /> */}
-          </div>
-        </div>
+        <Button2 />
       </div>
     </section>
   );

@@ -1,7 +1,8 @@
-import Image from "next/image";
-import Anak from "/public/AAAABf4UTxdT7-yQGKCx5ZsSb1gyb53QvZBw0LX4fbqqRjQwgx2KQ8cBtWOTKSd_BLBb7tuOB07RMEDs5bQFYhCDI4zDk6sD8J5Pjo1f.png";
+import { useTranslation } from "../i18n";
+import { Images2 } from "./images";
 
-const WhatYouCanDo4 = ({ t }) => {
+const WhatYouCanDo4 = async ({ lng }) => {
+  const { t } = await useTranslation(lng, "landing-page");
   return (
     <section className=" h-auto py-[72px] bg-black mt-2">
       <div className="max-w-xl flex flex-col lg:flex-row-reverse justify-center mx-6 md:mx-8 xl:mx-auto h-full">
@@ -13,9 +14,7 @@ const WhatYouCanDo4 = ({ t }) => {
             {t("WhatYCD4.desc")}
           </p>
         </div>
-        <div className=" w-full h-1/2 ">
-          <Image src={Anak} alt="TV" className="mx-auto" />
-        </div>
+        <Images2 lng={lng} />
       </div>
     </section>
   );
