@@ -23,7 +23,7 @@ const Footer = async ({ lng }) => {
             </Link>
           ))}
         </div>
-        <LanguageSwitcher />
+        <LanguageSwitcher lng={lng} />
         <h6 className="mt-6 text-[14px] text-[#b6b6b6] cursor-default">
           {t("footer.netflix-country")}
         </h6>
