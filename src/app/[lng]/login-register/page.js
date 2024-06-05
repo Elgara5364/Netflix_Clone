@@ -1,4 +1,4 @@
-import Navbar from "@/app/components/navbar";
+import Navbar from "../../components/navbar";
 
 const LoginRegister = () => {
   return (

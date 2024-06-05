@@ -1,4 +1,4 @@
-import Navbar from "@/app/components/navbar";
+import Navbar from "../components/navbar";
 import { dir } from "i18next";
 import Highlight from "../components/highlight";
 import WhatYouCanDo1 from "../components/whatYouCanDo1";
