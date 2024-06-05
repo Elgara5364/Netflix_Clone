@@ -28,7 +28,7 @@ const Faq = async ({ lng }) => {
           <h3 className="text-lg px-5 text-white mt-8">
             {t("highlight.subheading")}
           </h3>
-          <Button2 />
+          <Button2 lng={lng} />
         </div>
       </div>
     </section>
