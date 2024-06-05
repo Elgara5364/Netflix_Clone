@@ -5,10 +5,8 @@ import createNextIntlPlugin from "next-intl/plugin";
 const nextConfig = {
   /* config options here */
 };
-const withNextIntl = createNextIntlPlugin();
 
 export default {
   ...nextConfig,
   ...withVideos(nextConfig),
-  ...withNextIntl(nextConfig),
 };

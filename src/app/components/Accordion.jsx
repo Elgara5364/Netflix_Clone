@@ -29,11 +29,11 @@ export function AccordionItem({ children, value, trigger, ...props }) {
 
   // ;
   return (
-    <li {...props} className="text-md font-normal text-white text-start mb-2">
+    <li {...props} className="text-md font-normal text-white text-start mb-2 ">
       <header
         role="button"
         onClick={() => setSelected(open ? null : value)}
-        className=" max-w-[1260px] bg-[#2d2d2d]  p-6 flex justify-between  cursor-pointer hover:bg-[#444444] duration-200 text-white ">
+        className=" max-w-[1260px] bg-[#2d2d2d] lg:text-2xl p-6 flex justify-between  cursor-pointer hover:bg-[#444444] duration-200 text-white ">
         {trigger}
         <Image
           src={Plus}
@@ -47,7 +47,7 @@ export function AccordionItem({ children, value, trigger, ...props }) {
       <div
         className="overflow-y-hidden transition-all "
         style={{ height: open ? ref.current?.offsetHeight || 0 : 0 }}>
-        <div className="pt-2 p-4 bg-[#2d2d2d] mt-1" ref={ref}>
+        <div className=" p-6 bg-[#2d2d2d] mt-1 lg:text-2xl " ref={ref}>
           {children}
         </div>
       </div>
