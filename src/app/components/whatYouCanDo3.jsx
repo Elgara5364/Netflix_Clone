@@ -1,5 +1,6 @@
 import { useTranslation } from "../i18n";
-import { Button2 } from "./button";
+
+import { Video2 } from "./video";
 
 const WhatYouCanDo3 = async ({ lng }) => {
   const { t } = await useTranslation(lng, "landing-page");
@@ -14,7 +15,7 @@ const WhatYouCanDo3 = async ({ lng }) => {
             {t("WhatYCD3.desc")}
           </p>
         </div>
-        <Button2 />
+        <Video2 />
       </div>
     </section>
   );
