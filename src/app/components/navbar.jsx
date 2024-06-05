@@ -11,7 +11,7 @@ const Navbar = ({ lng }) => {
   return (
     <nav className="absolute z-20 w-full py-6 px-6">
       <div className="container flex justify-between max-w-[1180px] mx-auto">
-        <Logo />
+        <Logo lng={lng} />
         <div
           className={`${
             pathname === `/${lng}` ? "flex self-center gap-2 h-8" : "hidden"
