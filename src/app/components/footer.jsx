@@ -3,7 +3,7 @@ import Link from "next/link";
 import LanguageSwitcher from "./Language-switcher";
 import { useTranslation } from "../i18n";
 
-const Footer = async ({ lng }) => {
+export async function Footer({ lng }) {
   const { t } = await useTranslation(lng, "landing-page");
 
   return (
@@ -30,6 +30,32 @@ const Footer = async ({ lng }) => {
       </div>
     </footer>
   );
-};
+}
 
-export default Footer;
+export async function FooterLogin({ lng }) {
+  const { t } = await useTranslation(lng, "landing-page");
+
+  return (
+    <>
+      <footer className="bg-black py-8  ">
+        <div className="max-w-xl w-auto container flex flex-col mb-3 lg:mx-10 xl:mx-auto">
+          <h6 className="text-[14px] text-[#b6b6b6]">
+            {t("footer.link")}{" "}
+            <span className="underline">{t("footer.phone-number")}</span>
+          </h6>
+          <div className="grid grid-cols-2 gap-x-6 gap-y-4 md:gap-x-10 lg:grid-cols-4 my-3 text-[#aeaeae] text-sm">
+            <Link href={"/#"}>{t("footer.lists.0.link")}</Link>
+            <Link href={"/#"}>{t("footer.lists.1.link")}</Link>
+            <Link href={"/#"}>{t("footer.lists.9.link")}</Link>
+            <Link href={"/#"}>{t("footer.lists.10.link")}</Link>
+            <Link href={"/#"}>{t("footer.lists.11.link")}</Link>
+            <Link href={"/#"}>{t("footer.lists.12.link")}</Link>
+          </div>
+          <div className="mt-4 w-[195px] h-8">
+            <LanguageSwitcher lng={lng} />
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+}

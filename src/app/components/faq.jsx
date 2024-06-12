@@ -1,4 +1,4 @@
-import { Button2 } from "./button";
+import { GetStartedButton } from "./button";
 import { useTranslation } from "../i18n";
 import Accordion, { AccordionItem } from "./Accordion";
 
@@ -28,7 +28,7 @@ const Faq = async ({ lng }) => {
           <h3 className="text-lg px-5 text-white mt-8">
             {t("highlight.subheading")}
           </h3>
-          <Button2 lng={lng} />
+          <GetStartedButton lng={lng} />
         </div>
       </div>
     </section>

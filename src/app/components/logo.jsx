@@ -8,7 +8,7 @@ const Logo = () => {
     <>
       <Link
         href={`/${params.lng}`}
-        className="font-black text-red-600 text-3xl lg:text-5xl cursor-default">
+        className="font-black text-red-600 text-3xl lg:text-5xl ">
         Netflix
       </Link>
     </>

@@ -76,5 +76,26 @@
       { "link": "Hanya di Netflix" }
     ],
     "netflix-country": "Netflix Indonesia"
+  },
+  "sign": {
+    "or": "ATAU",
+    "input": {
+      "placeholder1": "Email atau nomor ponsel",
+      "placeholder2": "Sandi"
+    },
+    "button": "Gunakan Kode Masuk",
+    "forgot-password": "Lupa Sandi?",
+    "footer": {
+      "remember-me": "Ingat saya",
+      "new-to-netflix": "Baru di Netflix?",
+      "sign-up-link": "Daftar sekarang.",
+      "terms-of-use": "Halaman ini dilindungi oleh reCAPTCHA Google untuk memastikan kamu bukan bot.  ",
+      "learn-more": "Pelajari selengkapnya.",
+      "terms-of-use-details": "Informasi yang dikumpulkan oleh reCAPTCHA Google diatur oleh ",
+      "privacy-policy": "Kebijakan Privasi",
+      "and": " dan ",
+      "terms-of-service": "Ketentuan Layanan",
+      "terms-of-details2": ", Google, dan digunakan untuk memberikan, menjaga, dan meningkatkan layanan reCAPTCHA dan untuk tujuan keamanan umum (tidak digunakan untuk iklan yang dipersonalisasikan oleh Google)"
+    }
   }
 }
