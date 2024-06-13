@@ -44,7 +44,7 @@ const Form = async ({ lng }) => {
       <div>
         <Link
           href={"/"}
-          className="flex justify-center bg-[#80808066] px-4 py-2.5 rounded-md">
+          className="flex justify-center bg-[#80808066] px-4 py-2.5 rounded-md hover:bg-[#63636366] duration-150">
           <SignInCodeButton lng={lng} />
         </Link>
       </div>

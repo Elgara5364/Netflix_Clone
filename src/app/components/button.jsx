@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "../i18n";
-import { useEffect, useState } from "react";
 
 export async function SignInButton({ lng }) {
   const pathname = usePathname();

@@ -41,15 +41,29 @@ export async function FooterLogin({ lng }) {
         <div className="max-w-xl w-auto container flex flex-col mb-3 lg:mx-10 xl:mx-auto">
           <h6 className="text-[14px] text-[#b6b6b6]">
             {t("footer.link")}{" "}
-            <span className="underline">{t("footer.phone-number")}</span>
+            <span className="underline cursor-pointer">
+              {t("footer.phone-number")}
+            </span>
           </h6>
           <div className="grid grid-cols-2 gap-x-6 gap-y-4 md:gap-x-10 lg:grid-cols-4 my-3 text-[#aeaeae] text-sm">
-            <Link href={"/#"}>{t("footer.lists.0.link")}</Link>
-            <Link href={"/#"}>{t("footer.lists.1.link")}</Link>
-            <Link href={"/#"}>{t("footer.lists.9.link")}</Link>
-            <Link href={"/#"}>{t("footer.lists.10.link")}</Link>
-            <Link href={"/#"}>{t("footer.lists.11.link")}</Link>
-            <Link href={"/#"}>{t("footer.lists.12.link")}</Link>
+            <Link href={"/#"} className="underline ">
+              {t("footer.lists.0.link")}
+            </Link>
+            <Link href={"/#"} className="underline ">
+              {t("footer.lists.1.link")}
+            </Link>
+            <Link href={"/#"} className="underline ">
+              {t("footer.lists.9.link")}
+            </Link>
+            <Link href={"/#"} className="underline ">
+              {t("footer.lists.10.link")}
+            </Link>
+            <Link href={"/#"} className="underline ">
+              {t("footer.lists.11.link")}
+            </Link>
+            <Link href={"/#"} className="underline ">
+              {t("footer.lists.12.link")}
+            </Link>
           </div>
           <div className="mt-4 w-[195px] h-8">
             <LanguageSwitcher lng={lng} />
